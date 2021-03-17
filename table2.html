@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basictable2</title>
+</head>
+<body>
+<table border ="1"> 
+<!-- table에 border 을 통해 테두리를 줄 수 있다 -->
+<thead>
+    <tr>
+        <th>이름</th><th>성별</th><th>주소</th><th>용돈</th>
+    </tr>
+</thead>
+<!-- thead태그를 통해 표의 머리에 해당하는 부분 표시 -->
+<tbody>
+    <tr>
+        <td>오윤범</td><td>남</td><td rowspan="2">부산</td><td>9999</td>
+    </tr>
+    <!-- td 에 rowspan 을 이용해 행을 병합한다는 의미 -->
+
+    <tr>
+        <td>김삿갓</td><td>남</td><td>999</td>
+    </tr>
+</tbody>
+<!-- tbody태그를 통해 표의 내용에 해당하는 부분 표시 -->
+<tfoot>
+    <td colspan="3">합계</td>   <td>???</td>>
+    <!-- td 에 colspan 을 이용해 열을 병합한다는 의미 -->
+</tfoot>
+<!-- tfoot 태그를 통해 표의 하단 내용 표시 -->
+</table>
+</body>
+</html>
