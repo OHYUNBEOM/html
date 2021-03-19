@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form action="http://localhost/login.php">
+    <p>아이디 : <input type="text" name="id"></p>
+    <p>비밀번호  <input type="password" name="pw"></p>
+    <p>이메일 : <input type="text" name="email"></p>
+    <!-- name 을 통해 각각 control 에 이름을 정해주게되면 , 데이터 전송시 id=~ / pw=~ / email=~ 가 각각 전송된다 -->
+    <input type="submit">
+    <!-- input type를 submit 으로 줄 때 제출버튼 생성 -->
+</form>
+<!-- form 태그를 통해 form action="~"입력시 제출버튼 눌렀을때 저장되어있던 정보를 ~ 의 주소로 전송 -->
+</body>
+</html>
