@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formchoice2</title>
+    <meta charset="utf-8"> 
+</head>
+<body>
+    <form action="http://localhost.order.php">
+        <p>
+            <h1>색상(단일선택)</h1>
+            빨강 : <input type="radio" name="color" value="red" checked>
+            <!-- checked: default 값 -->
+            검정 : <input type="radio" name="color" value="black">
+            파랑 : <input type="radio" name="color" value="blue">
+            <!-- name 을 같이 지정하면 하나의 radiobutton 만 선택가능 -->
+            <!-- name 값이 같은것들끼리 그루핑이 되고 같은 그룹에 속하는것들중 하나가 선택되면 나머지가 해제 -->
+        </p>
+        <p>
+            <h1>사이즈(다중선택)</h1>
+            S : <input type="checkbox" name="size" value="95" checked>
+            M : <input type="checkbox" name="size" value="100">
+            L : <input type="checkbox" name="size" value="105">
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>
